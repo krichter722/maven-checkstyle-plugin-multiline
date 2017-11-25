@@ -30,7 +30,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <configLocation>check_style.xml</configLocation>
+                    <configLocation>src/main/resources/check_style.xml</configLocation>
+                        <!-- allows easier opening in IDEs -->
                 </configuration>
             </plugin>
         </plugins>
